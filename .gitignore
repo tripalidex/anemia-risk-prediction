@@ -1,0 +1,80 @@
+# Environment Variables & Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDEs & Editor Configurations
+.vscode/
+*.code-workspace
+.idea/
+*.iml
+.fleet/
+.spyderproject
+.ropeproject
+
+# ================================
+# DATA SCIENCE & MACHINE LEARNING 
+# ================================
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (¡Fundamental para no subir tus 3 datasets!)
+data/raw/*
+data/processed/*
+*.csv
+*.tsv
+*.xlsx
+*.parquet
+
+# Excepciones para mantener la estructura de carpetas en GitHub
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Modelos predictivos entrenados
+models/*
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# Excepciones para mantener la estructura de la carpeta models
+!models/.gitkeep
+
+# Archivos del Sistema Operativo
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# EXCEPTIONS: Files that MUST be tracked
+# ==========================================
+!uv.lock
+!alembic.ini
+!.env.example

@@ -9,6 +9,7 @@ PROCESSED_DIR = DATA_DIR / "processed"
 DIR_SIEN_REGIONAL = RAW_DIR
 FILE_ANEMIA_DA = RAW_DIR / "ANEMIA_DA.csv"
 FILE_TAMIZAJE = RAW_DIR / "TB_DIGTEL_ANEMIA_TAMIZAJE.csv"
+FILE_UBIGEO = RAW_DIR / "ubigeo" / "ubigeo_distrito.csv"
 
 # Regiones seleccionadas para el SIEN (representatividad geográfica)
 REGIONES_SELECCIONADAS = [

@@ -1,0 +1,19 @@
+=== EVALUACIÓN ACADÉMICA ===
+Dataset: SocioMedico
+Algoritmo: ArbolDecision
+============================
+
+1. MATRIZ DE CONFUSIÓN (TN, FP | FN, TP):
+[[59014     0]
+ [    0  8671]]
+
+2. REPORTE DE CLASIFICACIÓN (Enfocado en Recall Clase 1):
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00     59014
+         1.0       1.00      1.00      1.00      8671
+
+    accuracy                           1.00     67685
+   macro avg       1.00      1.00      1.00     67685
+weighted avg       1.00      1.00      1.00     67685
+

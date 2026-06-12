@@ -1,0 +1,19 @@
+=== EVALUACIÓN ACADÉMICA ===
+Dataset: Masivo
+Algoritmo: ArbolDecision
+============================
+
+1. MATRIZ DE CONFUSIÓN (TN, FP | FN, TP):
+[[55613  3369]
+ [ 6978 13449]]
+
+2. REPORTE DE CLASIFICACIÓN (Enfocado en Recall Clase 1):
+              precision    recall  f1-score   support
+
+         0.0       0.89      0.94      0.91     58982
+         1.0       0.80      0.66      0.72     20427
+
+    accuracy                           0.87     79409
+   macro avg       0.84      0.80      0.82     79409
+weighted avg       0.87      0.87      0.87     79409
+

@@ -1,0 +1,19 @@
+=== EVALUACIÓN ACADÉMICA ===
+Dataset: Masivo
+Algoritmo: RegresionLogistica
+============================
+
+1. MATRIZ DE CONFUSIÓN (TN, FP | FN, TP):
+[[39612 19370]
+ [ 5377 15050]]
+
+2. REPORTE DE CLASIFICACIÓN (Enfocado en Recall Clase 1):
+              precision    recall  f1-score   support
+
+         0.0       0.88      0.67      0.76     58982
+         1.0       0.44      0.74      0.55     20427
+
+    accuracy                           0.69     79409
+   macro avg       0.66      0.70      0.66     79409
+weighted avg       0.77      0.69      0.71     79409
+
